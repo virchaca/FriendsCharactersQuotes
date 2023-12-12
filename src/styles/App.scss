@@ -1,0 +1,89 @@
+.body {
+  background-image: url("../images/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  background-image: url("../images/2.png");
+  background-size: auto;
+  height: 100px;
+}
+.main {
+  margin-block: 8rem;
+  margin-inline: 8rem;
+  .title1 {    
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    border: 5px solid black;    
+    color: rgb(179, 179, 43);
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .firstForm {
+    font-family: Rubik Bubbles;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: fit-content;
+    margin: auto;
+    padding-top: 2rem;
+    border: 5px solid black;
+    border-style: dashed;
+    .phraseAdd {
+      text-align: center;
+    }
+    label {
+      padding: 1rem;
+    }
+    .select{
+      cursor: pointer;
+    }
+  }
+  .ul {
+    margin: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .li {
+    border: 5px solid black;
+    width: 200px;
+    padding: 5px;
+    list-style: none;
+    border-radius: 15%;
+    background-color: rgba(255, 255, 255, 0.6);
+    .name {
+      color: purple;
+      font-weight: bold;
+    }
+  }
+  .secondForm {
+    border: 5px solid black;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    .title2 {
+      color: black;
+      text-align: center;
+    }
+    .input {
+      background-color: black;
+      margin: 0.1rem;
+      color: white;
+      padding: 0.2rem;
+    }
+    .add{
+      cursor: pointer;
+    }
+  }
+  .bottom {
+    text-align: right;
+
+    .mybrand {
+      background-color: white;
+      margin-bottom: 4rem;
+      padding: 0.2rem;
+      border: 1px solid black;
+    }
+  }
+}
