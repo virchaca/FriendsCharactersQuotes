@@ -1,8 +1,11 @@
-# React + Vite
+# Friends Characters Quotes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Api with quotes of all the main characters of the show. You can:
 
-Currently, two official plugins are available:
+- search by word
+- search by character
+- not search at all and watch them all
+- insert new quotes from any of the characters
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Use the filter on top to choose your criteria and find your quote.
+Use the form below, at the bottom, to insert a new quote.
