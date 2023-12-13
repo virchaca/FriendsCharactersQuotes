@@ -99,7 +99,7 @@ function App() {
           <p className="phraseAdd">
             {" "}
             Add a new quote of any of the show's characters at the bottom of this page!{" "}
-            <i className="fa-solid fa-circle-down"></i>
+            <a href="#secondForm" ><i className="fa-solid fa-circle-down"></i></a>
           </p>
         </fieldset>
       </form>
@@ -107,7 +107,7 @@ function App() {
       <ul className="ul"> {renderPrhases()} </ul>
 
       <form onSubmit={handleSubmit}>
-        <fieldset className="secondForm">
+        <fieldset className="secondForm" id="secondForm">
           <h2 className="title2"> Add a new quote!</h2>
           <input
             className="input"

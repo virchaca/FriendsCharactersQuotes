@@ -1,33 +1,57 @@
 .body {
-  background-image: url("../images/fondo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/mobileFriends.png");
+
+  @media all and (min-width: 768px)  {  
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }  
 }
-.header {
-  background-image: url("../images/2.png");
-  background-size: auto;
-  height: 100px;
+
+.header { 
+  height: 12vh;
+  @media all and (min-width: 768px)  {
+    height: 10vh;
+    }  
 }
+
 .main {
-  margin-block: 8rem;
-  margin-inline: 8rem;
+  @media all and (min-width: 768px)  {  
+    margin-block: 8rem;
+    margin-inline: 8rem;
+  }
+ 
   .title1 {    
     width: fit-content;
     margin: 2rem auto;
     padding: 0.5rem;
     border: 5px solid black;    
     color: rgb(179, 179, 43);
-    font-size: 3rem;
+    font-size: 1.5rem;
     background-color: rgba(0, 0, 0, 0.6);
+    margin-block: 3rem;
+   
+    @media all and (min-width: 768px)  {      
+      padding: 0.5rem;      
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-block: 5rem;
+    }
   }
+  
   .firstForm {
     font-family: Rubik Bubbles;
     background-color: rgba(255, 255, 255, 0.8);
     width: fit-content;
     margin: auto;
     padding-top: 2rem;
-    border: 5px solid black;
+    border: 3px solid black;
     border-style: dashed;
+    margin-bottom: 3rem;
+
+    @media all and (min-width: 768px) {
+      margin-bottom: 0rem;
+    }
     .phraseAdd {
       text-align: center;
     }
@@ -38,30 +62,50 @@
       cursor: pointer;
     }
   }
-  .ul {
-    margin: 5rem;
+  .ul {    
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
+    @media all and (min-width: 768px)  {  
+      margin: 5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
   }
   .li {
-    border: 5px solid black;
-    width: 200px;
+    border: 3px solid black;
+    width: 130px;
     padding: 5px;
     list-style: none;
     border-radius: 15%;
     background-color: rgba(255, 255, 255, 0.6);
+    
+    @media all and (min-width: 768px)  {      
+    width: 200px;
+    padding: 5px;  
+    }
     .name {
       color: purple;
       font-weight: bold;
     }
+    
   }
   .secondForm {
-    border: 5px solid black;
-    text-align: center;
-    width: fit-content;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid black;    
+    width: min-content;  
+    margin: auto;  
+    // background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255,);
+
+    @media all and (min-width: 768px){
+      border: 3px solid black;
+      text-align: center;
+      width: fit-content;
+      margin: auto;
+      
+    }
+
     .title2 {
       color: black;
       text-align: center;
@@ -73,17 +117,18 @@
       padding: 0.2rem;
     }
     .add{
-      cursor: pointer;
+      cursor: pointer;      
     }
   }
-  .bottom {
+  .bottom {  
     text-align: right;
+    margin-block: 2rem;
 
     .mybrand {
-      background-color: white;
-      margin-bottom: 4rem;
+      background-color: white;      
       padding: 0.2rem;
       border: 1px solid black;
+    
     }
   }
 }
