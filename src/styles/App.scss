@@ -1,44 +1,44 @@
 .body {
-  background-image: url("../images/mobileFriends.png");
+  background-image: url("../images/mobileFriends2.png");
 
-  @media all and (min-width: 768px)  {  
+  @media all and (min-width: 768px) {
     background-image: url("../images/fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-  }  
+  }
 }
 
-.header { 
-  height: 12vh;
-  @media all and (min-width: 768px)  {
+.header {
+  height: 8vh;
+  @media all and (min-width: 768px) {
     height: 10vh;
-    }  
+  }
 }
 
 .main {
-  @media all and (min-width: 768px)  {  
+  @media all and (min-width: 768px) {
     margin-block: 8rem;
     margin-inline: 8rem;
   }
- 
-  .title1 {    
+
+  .title1 {
     width: fit-content;
     margin: 2rem auto;
     padding: 0.5rem;
-    border: 5px solid black;    
+    border: 5px solid black;
     color: rgb(179, 179, 43);
     font-size: 1.5rem;
     background-color: rgba(0, 0, 0, 0.6);
     margin-block: 3rem;
-   
-    @media all and (min-width: 768px)  {      
-      padding: 0.5rem;      
+
+    @media all and (min-width: 768px) {
+      padding: 0.5rem;
       font-size: 3rem;
       background-color: rgba(0, 0, 0, 0.6);
       margin-block: 5rem;
     }
   }
-  
+
   .firstForm {
     font-family: Rubik Bubbles;
     background-color: rgba(255, 255, 255, 0.8);
@@ -48,9 +48,11 @@
     border: 3px solid black;
     border-style: dashed;
     margin-bottom: 3rem;
+    margin-inline: 1rem;
 
     @media all and (min-width: 768px) {
       margin-bottom: 0rem;
+      margin: auto;
     }
     .phraseAdd {
       text-align: center;
@@ -58,15 +60,15 @@
     label {
       padding: 1rem;
     }
-    .select{
+    .select {
       cursor: pointer;
     }
   }
-  .ul {    
+  .ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    @media all and (min-width: 768px)  {  
+    @media all and (min-width: 768px) {
       margin: 5rem;
       display: flex;
       flex-wrap: wrap;
@@ -80,30 +82,28 @@
     list-style: none;
     border-radius: 15%;
     background-color: rgba(255, 255, 255, 0.6);
-    
-    @media all and (min-width: 768px)  {      
-    width: 200px;
-    padding: 5px;  
+
+    @media all and (min-width: 768px) {
+      width: 200px;
+      padding: 5px;
     }
     .name {
       color: purple;
       font-weight: bold;
     }
-    
   }
   .secondForm {
-    border: 3px solid black;    
-    width: min-content;  
-    margin: auto;  
+    border: 3px solid black;
+    width: min-content;
+    margin: auto;
     // background-color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(255, 255, 255,);
+    background-color: rgba(255, 255, 255);
 
-    @media all and (min-width: 768px){
+    @media all and (min-width: 768px) {
       border: 3px solid black;
       text-align: center;
       width: fit-content;
       margin: auto;
-      
     }
 
     .title2 {
@@ -116,19 +116,18 @@
       color: white;
       padding: 0.2rem;
     }
-    .add{
-      cursor: pointer;      
+    .add {
+      cursor: pointer;
     }
   }
-  .bottom {  
+  .bottom {
     text-align: right;
     margin-block: 2rem;
 
     .mybrand {
-      background-color: white;      
+      background-color: white;
       padding: 0.2rem;
       border: 1px solid black;
-    
     }
   }
 }
