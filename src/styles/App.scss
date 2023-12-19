@@ -1,8 +1,11 @@
 .body {
   background-image: url("../images/mobileFriends2.png");
+  background-attachment: fixed;
+  // background-position: center;
+ 
 
   @media all and (min-width: 768px) {
-    background-image: url("../images/fondo.jpg");
+    background-image: url("../images/fondoo.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -27,7 +30,7 @@
     padding: 0.5rem;
     border: 5px solid black;
     color: rgb(179, 179, 43);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: rgba(0, 0, 0, 0.6);
     margin-block: 3rem;
 
@@ -65,12 +68,13 @@
     }
   }
   .ul {
-    display: flex;
+    display: flex;    
     flex-wrap: wrap;
     gap: 15px;
     @media all and (min-width: 768px) {
       margin: 5rem;
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
       gap: 30px;
     }
